@@ -10,6 +10,10 @@ import Flash from "@/public/Flash.svg";
 import HeroBlack from "@/public/hero-black.png";
 import HeroWhite from "@/public/hero-white.png";
 import Rocket from "@/public/Rocket.svg";
+import Globe from "@/public/Globe.svg";
+import Megaphone from "@/public/Megaphone.svg";
+import Mobile from "@/public/Mobile.svg";
+import Palette from "@/public/Palette.svg";
 import Sparkles from "@/public/Sparkles.svg";
 import love_black from "@/public/love-black.svg";
 import love_white from "@/public/love-white.svg";
@@ -78,7 +82,7 @@ export default function About() {
           <CategoryCard />
           <div className=" text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
             <p className="mt-6 mb-12 font-normal">
-              As a Full Stack Developer, I specialize in the complete development lifecycle of mobile applications for both Android and iOS, ensuring seamless communication between backend and frontend systems. <span className="inline-flex items-baseline"><Image src={Rocket} alt="mobile" className="self-center w-5 h-5 mx-1" /></span> My expertise extends to crafting web applications for various projects, deploying them in robust hosting environments, and managing intricate data and user interactions. <span className="inline-flex items-baseline"><Image src={Rocket} alt="globe" className="self-center w-5 h-5 mx-1" /></span> I've also been instrumental in amplifying platforms and social media presence to promote my projects, demonstrating a keen understanding of digital marketing strategies. <span className="inline-flex items-baseline"><Image src={Rocket} alt="megaphone" className="self-center w-5 h-5 mx-1" /></span> My passion for design and AI tools has played a significant role in creating engaging project assets, showcasing my versatility and innovative approach to technology solutions. <span className="inline-flex items-baseline"><Image src={Rocket} alt="palette" className="self-center w-5 h-5 mx-1" /></span> Proficient in a range of technologies, including React.js, Next.js, and state management frameworks like Redux.js, I am skilled in JavaScript, Tailwind CSS, and SASS for building responsive and user-friendly web interfaces.
+              As a Full Stack Developer, I specialize in the complete development lifecycle of mobile applications for both Android and iOS, ensuring seamless communication between backend and frontend systems. <span className="inline-flex items-baseline"><Image src={Mobile} alt="mobile" className="self-center w-5 h-5 mx-1" /></span> My expertise extends to crafting web applications for various projects, deploying them in robust hosting environments, and managing intricate data and user interactions. <span className="inline-flex items-baseline"><Image src={Globe} alt="globe" className="self-center w-5 h-5 mx-1" /></span> I&apos;ve also been instrumental in amplifying platforms and social media presence to promote my projects, demonstrating a keen understanding of digital marketing strategies. <span className="inline-flex items-baseline"><Image src={Megaphone} alt="megaphone" className="self-center w-5 h-5 mx-1" /></span> My passion for design and AI tools has played a significant role in creating engaging project assets, showcasing my versatility and innovative approach to technology solutions. <span className="inline-flex items-baseline"><Image src={Palette} alt="palette" className="self-center w-5 h-5 mx-1" /></span> Proficient in a range of technologies, including React.js, Next.js, and state management frameworks like Redux.js, I am skilled in JavaScript, Tailwind CSS, and SASS for building responsive and user-friendly web interfaces.
             </p>
 
 

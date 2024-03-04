@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import aizen from "@/public/work/aizen.jpg";
-import kamui from "@/public/work/kamui.jpg";
+import beam from "@/public/work/beam.png";
+import meshsync from "@/public/work/meshsync.png";
+
+import orama from "@/public/work/orama.png";
 import pokedex from "@/public/work/pokedex.jpg";
 import portfolio from "@/public/work/portfolio.jpg";
 import cryptohunter from "@/public/work/crypto-hunter.jpg";
 import redeye from "@/public/work/red-eye.jpg";
-import evo from "@/public/work/evo.jpg";
+import comingsoon from "@/public/work/comingsoon.png";
 import notion from "@/public/work/notion.jpg";
 import nike from "@/public/work/nike.jpg";
 
@@ -15,76 +17,53 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: aizen,
-      title: "Aizen",
-      description: "Create beautiful images and gifs of your source code",
-      link: "https://aizen.netlify.app/",
+      image: meshsync,
+      title: "MeshSync",
+      description: "Edit 3D objects in parallel",
+      link: "https://meshsync.web.app/",
       target: "_self",
     },
     {
       id: 2,
-      image: kamui,
-      title: "Kamui",
-      description: "Kanban board for planner with superpowers",
-      link: "https://kamui-kanban.netlify.app/",
+      image: orama,
+      title: "Orama Initiative",
+      description: "Capturing the change through the eyes of the people",
+      link: "https://orama-initiative.web.app/",
       target: "_self",
     },
     {
       id: 3,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
-      link: "https://pokedex-polly.netlify.app/",
+      image: beam,
+      title: "Beam",
+      description: "Behavioural Evaluation and Activity Monitoring using mobile and smartwatch sensors",
+      link: "",
       target: "_self",
     },
     {
       id: 4,
-      image: evo,
-      title: "Evo Gym",
-      description: "Gym Landing Page",
-      link: "https://evogymm.netlify.app/",
+      image: comingsoon,
+      title: "Coming Soon",
+      description: "AR driven city explorer",
+      link: "",
       target: "_blank",
     },
     {
       id: 5,
-      image: nike,
-      title: "Nike Store",
-      description: "Nike Store Landing Page",
-      link: "https://nikestore-polly.netlify.app/",
+      image: comingsoon,
+      title: "Asclepius",
+      description: "Mobile ecommerce",
+      link: "",
       target: "_blank",
     },
     {
       id: 6,
-      image: notion,
-      title: "Potion",
-      description: "Connected workspace where better, faster work happens.",
-      link: "https://potion-write.vercel.app/",
+      image: comingsoon,
+      title: "Coming Soon",
+      description: "Connect and interact with people in close proximity",
+      link: "",
       target: "_blank",
     },
-    {
-      id: 7,
-      image: portfolio,
-      title: "Portfolio",
-      description: "Portfolio made using Next.js and Tailwind CSS",
-      link: "",
-      target: "",
-    },
-    {
-      id: 8,
-      image: cryptohunter,
-      title: "Crypto Hunter",
-      description: "Get the Trending Crypto list with its Price",
-      link: "https://crytocurrencyhunter.netlify.app/",
-      target: "_self",
-    },
-    {
-      id: 9,
-      image: redeye,
-      title: "Red Eye",
-      description: "Question based website to know your movie genre",
-      link: "https://red-eye.netlify.app/",
-      target: "_self",
-    },
+    
   ];
 
   return (

@@ -42,23 +42,19 @@ export default function Home() {
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
           <div className="flex flex-row justify-start items-center mt-20">
-            <Image
-              src={currentTheme === "dark" ? Avatar_White : Avatar_Black}
-              alt="pranjal"
-              width="80"
-              height="80"
-            />
+          <div className={`border-4 rounded-full overflow-hidden ${currentTheme === "dark" ? "border-white" : "border-black"}`}>
+              <Image
+                src="/avatar.jpeg"
+                alt="chriszal"
+                width="80"
+                height="80"
+                className="rounded-full"
+              />
+            </div>
             <div className="flex flex-col ml-4">
               <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
                 <span className="font-semibold">christos zalachoris</span>
-                <span>
-                  <Image
-                    src={currentTheme === "dark" ? BooWhite : BooBlack}
-                    alt="boo"
-                    width="25"
-                    height="25"
-                  />
-                </span>
+                
               </h2>
               <h3>
                 <Link
