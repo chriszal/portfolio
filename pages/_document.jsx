@@ -8,51 +8,51 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        <meta name="title" content="chriszal | portofolio" />
-        <meta name="description" content="Developer" />
+        <meta name="title" content="Christos Zalachoris" />
+        <meta name="description" content="Portofolio" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://chriszal.web.app/" />
-        <meta property="og:title" content="chriszal | portofolio" />
+        <meta property="og:title" content="Christos Zalachoris" />
         <meta
           property="og:description"
           content="Developer "
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/dr8a4zcj5/image/upload/v1709680577/lotbyv7hcpzxj9iccgli.jpg"
         />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chriszal.vercel.app/"
+          content="https://chriszal.web.app/"
         />
         <meta
           property="twitter:title"
-          content="chriszal | portofolio"
+          content="Christos Zalachoris"
         />
         <meta
           property="twitter:description"
-          content="Developer "
+          content="Portofolio "
         />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/dr8a4zcj5/image/upload/v1709680577/lotbyv7hcpzxj9iccgli.jpg"
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="chriszal | portofolio" />
-        <meta property="og:title" content="chriszal | portofolio" />
+        <meta property="og:site_name" content="Christos Zalachoris" />
+        <meta property="og:title" content="Christos Zalachoris" />
         <meta
           property="og:description"
-          content="Developer "
+          content="Portofolio "
         />
         <meta
           property="og:image"
           itemprop="image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/dr8a4zcj5/image/upload/v1709680577/lotbyv7hcpzxj9iccgli.jpg"
         />
         <meta property="og:type" content="website" />
 
@@ -62,7 +62,7 @@ export default function Document() {
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="chriszal | portofolio"
+          title="Christos Zalachoris"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

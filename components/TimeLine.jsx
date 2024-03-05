@@ -13,6 +13,15 @@ const TimeLine = () => {
     },
     {
       id: 1,
+      title: "A Brief Review of Population-based Methods for Task Offloading in Cloud-to-Edge Continuum",
+      duration: "Jul 2023 - Oct 2023",
+      org: "IEEE CLOUDNET 2023 - HUA",
+      skills: ["Task Offloading", "Population-based Methods", "Cloud-to-Edge Continuum","Algorithms"],
+      class:
+        "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300",
+    },
+    {
+      id: 2,
       title: "Full Stack Developer",
       duration: "Mar 2023 - Dec 2023",
       org: "Relevium - HUA",
@@ -21,7 +30,7 @@ const TimeLine = () => {
         "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
     },
     {
-      id: 2,
+      id: 3,
       title: "Graduated Computer Science",
       duration: "Sep 2019 - Oct 2023",
       org: "Harokopio University",
@@ -30,7 +39,7 @@ const TimeLine = () => {
         "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
     },
     {
-      id: 3,
+      id: 4,
       title: "Game Development Certificate",
       duration: "Jun 2021",
       org: "Stack Skills",

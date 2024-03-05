@@ -70,11 +70,7 @@ export default function Home() {
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              A wizard who loves design and code. I develop modern, reactive,
-              and user-friendly web applications using the latest technologies
-              currently. Believe a perfect blend of user inteface architecture
-              is one, where the goals and needs are accounted for in an elegant,
-              efficient, and robust design of the user interface.
+            I am a software developer fueled by a ceaseless passion for innovation and the execution of new ideas. My journey in the tech world is driven by the thrill of turning concepts into reality, skillfully weaving together the realms of front-end web development, mobile app creation, and the intricate art of backend database management. 
             </p>
           </div>
         </div>
